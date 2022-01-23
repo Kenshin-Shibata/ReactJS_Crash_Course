@@ -12,7 +12,7 @@ const Header = ({title}) => {
         onClick={onClick} />
     </header>
   )
-};
+}
 
 Header.defaultProps = {
   title: 'Task Tracker',
